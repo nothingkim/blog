@@ -1,0 +1,42 @@
+baseURL = 'https://nothingkim.github.io/'
+languageCode = 'us'
+title = '김그냥씨의 블로그'
+theme = "hugo-coder"
+
+
+[params]
+author = "김그냥"
+description = "김그냥씨의 블로그"
+info = ["개발자"]
+avatarURL = "images/avatar.jpg"
+gravatar = "rkswkdwhtjs@naver.com"
+
+
+[[params.social]]
+name = "github"
+icon = "fa fa-2x fa-github"
+weight = 2
+url = "https://gitlab.com/nothingkim/"
+
+[[params.social]]
+name = "instagram"
+icon = "fa fa-2x fa-instagram"
+weight = 2
+url = "https://www.instagram.com/nothingkim/"
+
+[[params.social]]
+name = "velog"
+icon = "fa fa-2x fa-heart"
+weight = 2
+url = "https://velog.io/@nothingkim"
+
+[[params.social]]
+name = "youtube"
+icon = "fa fa-2x fa-youtube"
+weight = 2
+url = "https://www.youtube.com/@nothingkim"
+
+[[languages.en.menu.main]]
+name = "Posts"
+weight = 2
+url = "post/"
